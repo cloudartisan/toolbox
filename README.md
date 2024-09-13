@@ -35,6 +35,7 @@ This will:
 
 ## Directory Structure
 
+```
 toolbox/
 ├── bin/                    # Executable scripts
 ├── lib/                    # Reusable libraries or modules
@@ -42,6 +43,7 @@ toolbox/
 ├── install.sh              # Installation script for new workstations
 ├── README.md               # This file
 └── LICENSE                 # License for this repository
+```
 
 - **`bin/`**: Executable scripts to be symlinked to `$HOME/bin/` during installation for easy access.
 - **`lib/`**: Shared libraries or reusable code used by the scripts in `bin/`.
